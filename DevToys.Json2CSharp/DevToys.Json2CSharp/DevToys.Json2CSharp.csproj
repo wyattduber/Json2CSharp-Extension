@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DevToys.Api" Version="2.0.8-preview" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Json2CSharp.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Json2CSharp.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Json2CSharp.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Json2CSharp.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>
