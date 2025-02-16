@@ -16,7 +16,7 @@ namespace Json2CSharp.GUI;
     DescriptionResourceName = nameof(Json2CSharp.Description),
     AccessibleNameResourceName = nameof(Json2CSharp.AccessibleName),
     SearchKeywordsResourceName = nameof(Json2CSharp.SearchKeywords),
-    GroupName = "Converters"
+    GroupName = "Json2CSharp"
 )]
 [TargetPlatform(Platform.Windows)]
 [TargetPlatform(Platform.MacOS)]
@@ -31,27 +31,9 @@ internal sealed class Json2CSharpGuiTool : IGuiTool
             Stack()
                 .Vertical()
                 .WithChildren(
-                    MultiLineTextInput()
-                        .Title("JSON Input")
-                        .Language("Json"),
-
-                    MultiLineTextInput()
-                        .Title("Always wrapping editor")
-                        .AlwaysWrap(),
-                    
-                    MultiLineTextInput()
-                        .Title("Read only, extendable editor")
-                        .Extendable()
-                        .ReadOnly(),
-
                     _multiLineTextInput
-                        .Title("Extra command & Highlight")
-                        .CommandBarExtraContent(
-                            Button()
-                                .Text("Highlight")
-                                .AccentAppearance()
-                                .OnClick(OnHighlightButtonClick)
-                        )
+                        .Title("JSON Input")
+                        .Language("Json")
                 )
         );
 

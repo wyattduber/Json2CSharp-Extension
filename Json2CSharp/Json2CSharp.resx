@@ -36,4 +36,10 @@
     <data name="SearchKeywords" xml:space="preserve">
         <value>Json2CSharp,Json,C#</value>
     </data>
+    <data name="GroupDisplayTitle" xml:space="preserve">
+        <value>Json2CSharp</value>
+    </data>
+    <data name="GroupAccessibleTitle" xml:space="preserve">
+        <value>Convert Json to C#</value>
+    </data>
 </root>

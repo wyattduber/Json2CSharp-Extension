@@ -38,7 +38,7 @@ namespace Json2CSharp {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DevToys.Json2CSharp.Json2CSharp", typeof(Json2CSharp).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Json2CSharp.Json2CSharp", typeof(Json2CSharp).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -110,6 +110,24 @@ namespace Json2CSharp {
         internal static string SearchKeywords {
             get {
                 return ResourceManager.GetString("SearchKeywords", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///  Looks up a localized string similar to Json to C# Gui Tool.
+        ///  </summary>
+        internal static string GroupDisplayTitle {
+            get {
+                return ResourceManager.GetString("GroupDisplayTitle", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        /// Looks up a localized string similar to Json to C# Gui Tool.
+        /// </summary>
+        internal static string GroupAccessibleName {
+            get {
+                return ResourceManager.GetString("GroupAccessibleName", resourceCulture);
             }
         }
     }
