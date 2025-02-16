@@ -2,7 +2,7 @@ using DevToys.Api;
 using System.ComponentModel.Composition;
 using static DevToys.Api.GUI;
 
-namespace DevToys.Json2CSharp;
+namespace Json2CSharp;
 
 [Export(typeof(IGuiTool))]
 [Name("Json2CSharp")]                                                         

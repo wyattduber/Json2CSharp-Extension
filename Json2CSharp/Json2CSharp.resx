@@ -28,9 +28,12 @@
         <value>Hello World!</value>
     </data>
     <data name="LongDisplayTitle" xml:space="preserve">
-        <value>Json2CSharp</value>
+        <value>Json Data --> C# Class</value>
     </data>
     <data name="ShortDisplayTitle" xml:space="preserve">
         <value>Json2CSharp</value>
+    </data>
+    <data name="SearchKeywords" xml:space="preserve">
+        <value>Json2CSharp,Json,C#</value>
     </data>
 </root>

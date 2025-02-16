@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevToys.Json2CSharp", "DevToys.Json2CSharp\DevToys.Json2CSharp.csproj", "{21F9D220-14C2-4BDD-BF07-8B7350B8D316}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json2CSharp", "Json2CSharp\Json2CSharp.csproj", "{21F9D220-14C2-4BDD-BF07-8B7350B8D316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

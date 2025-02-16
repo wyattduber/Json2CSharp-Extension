@@ -1,7 +1,7 @@
 using System.ComponentModel.Composition;
 using DevToys.Api;
 
-namespace DevToys.Json2CSharp;
+namespace Json2CSharp;
 
 [Export(typeof(IResourceAssemblyIdentifier))]
 [Name(nameof(Json2CSharpExtensionResourceAssemblyIdentifier))]

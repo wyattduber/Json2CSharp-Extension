@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# VSCode Files
+.vscode/
+
 # JetBrains files/folders
 .idea/
 *.iml

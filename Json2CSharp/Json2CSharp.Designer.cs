@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DevToys.Json2CSharp {
+namespace Json2CSharp {
     using System;
     
     
@@ -101,6 +101,15 @@ namespace DevToys.Json2CSharp {
         internal static string ShortDisplayTitle {
             get {
                 return ResourceManager.GetString("ShortDisplayTitle", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///  Looks up a localized string similar to Json2CSharp.
+        ///  </summary>
+        internal static string SearchKeywords {
+            get {
+                return ResourceManager.GetString("SearchKeywords", resourceCulture);
             }
         }
     }
